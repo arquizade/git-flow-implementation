@@ -60,19 +60,19 @@ $ git commit -m 'update to do file'
 ```
 ##### :pushpin: Finishing feature branch (satisfied with the code) `your@[DEV]develop-branch`
 ```
-$ git flow feature start feature_branch
+$ git flow feature finish feature_branch
 $ git push origin develop
 ```
 
 ##### :pushpin: Release branch (for QA test) `your@[STAGE]release-branch`
 ```
 $ git flow release start 0.1.0
-Switched to a new branch 'release/0.1.0'
+Switched to a new branch 0.1.0
 ```
 ...:memo: Execute test here... :ship: if approved and release is stable and ready to ship.. if not do not execute this command..
 
 ```
-$ git flow release finish '0.1.0'
+$ git flow release finish 0.1.0
 $ git push origin --tags
 ```
 
@@ -91,7 +91,7 @@ $ git flow release start 0.1.1
 ```
 ....:thumbsup: QA do the test again and when satisfied with the fix ..
 ```
-$ git flow release finish '0.1.1'
+$ git flow release finish 0.1.1
 $ git push origin --tags
 ```
 ...:checkered_flag: when you excute the release finish command it will automatically merge to master and develop branch ~ but not in production server
