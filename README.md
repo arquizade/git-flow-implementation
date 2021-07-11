@@ -78,7 +78,7 @@ $ git push origin --tags
 
 ...:warning: if release have issues or bug fix
 ```
-$ git flow bugfix finish 'bugfix_branch'
+$ git flow bugfix start 'bugfix_branch'
 ```
 ...:crystal_ball: developer do the magic trick to fix the issue.. satisfied with the code
 ```
