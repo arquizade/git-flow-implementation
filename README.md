@@ -1,6 +1,7 @@
 ## :speech_balloon:Git Flow Project Implementation
-This will serve as a guideline for implementing new projects using git flow workflow.
+This will serve as a guideline for implementing new projects using git flow workflow. 
 
+###### By: [arquizade](https://github.com/arquizade")
 -------------
 #### :bookmark: Git flow workflow diagram
 
@@ -24,7 +25,7 @@ Execute this command inside git project terminal (master)
 ```
 $ git flow init -d
 ```
-To (-d) command is default
+(-d) command will set the config default
 ```
 Initialized empty Git repository in ~/project/.git/
 No branches exist yet. Base branches must be created now.
@@ -56,7 +57,6 @@ $ git flow feature start feature_branch
 ```
 $ git add to_do_file
 $ git commit -m 'update to do file'
-
 ```
 ##### :pushpin: Finishing feature branch (satisfied with the code) `your@[DEV]develop-branch`
 ```
