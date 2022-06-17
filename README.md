@@ -59,6 +59,13 @@ $ git flow feature start feature_branch_name
 $ git add to_do_file
 $ git commit -m 'update to do file'
 ```
+
+...:memo: Developing a feature in collaboration use this commands
+```
+git flow feature publish feature_branch_name
+```
+
+feature in collaboration
 ##### :pushpin: Finish feature branch (satisfied with the code) `your@[DEV]develop-branch`
 ```
 $ git flow feature finish feature_branch_name
