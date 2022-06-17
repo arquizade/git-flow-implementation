@@ -130,8 +130,14 @@ index d17f10e..6c12524 100644
 @@ -1,4 +1,4 @@
 -edit line
 +Title Header
- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit fuga fugiat, asperiores dolor delectus atque iure, aliquid optio labore quod voluptate in necessitatibus harum quaerat corrupti inventore a recusandae ad.
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit fuga fugiat, asperiores dolor delectus atque iure.
 ```
+
+Search any string value inside of your project
+```
+$ git grep -i -n 'type-the-text-to-search-here'
+```
+
 > :tv: [Using git diff video explanation](https://www.youtube.com/watch?v=RophmTcbf8o)
 -------------
 ## :book: References
