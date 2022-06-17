@@ -70,6 +70,13 @@ $ git push origin develop
 $ git flow release start 0.1.0
 Switched to a new branch 0.1.0
 ```
+
+...:memo: To access by the QA execute this command and you can track:
+```
+$ git flow release publish 0.1.0
+$ git flow release track 0.1.0
+```
+
 ...:memo: Execute test here... :ship: if approved and release is stable and ready to ship, finish the release using the command below: 
 
 **Note:** if not approve do not execute this command..
