@@ -59,6 +59,13 @@ $ git flow feature start feature_branch_name
 $ git add to_do_file
 $ git commit -m 'update to do file'
 ```
+
+...:memo: Developing a feature in collaboration use this commands
+```
+git flow feature publish feature_branch_name
+```
+
+feature in collaboration
 ##### :pushpin: Finish feature branch (satisfied with the code) `your@[DEV]develop-branch`
 ```
 $ git flow feature finish feature_branch_name
@@ -70,6 +77,13 @@ $ git push origin develop
 $ git flow release start 0.1.0
 Switched to a new branch 0.1.0
 ```
+
+...:memo: To access by the QA execute this command and you can track:
+```
+$ git flow release publish 0.1.0
+$ git flow release track 0.1.0
+```
+
 ...:memo: Execute test here... :ship: if approved and release is stable and ready to ship, finish the release using the command below: 
 
 **Note:** if not approve do not execute this command..
