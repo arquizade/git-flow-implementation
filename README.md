@@ -5,9 +5,10 @@ This will serve as a guideline for implementing new projects using git flow work
 -------------
 #### :bookmark: Git flow workflow diagram
 
-![](https://zepel.io/blog/content/images/2020/05/GitFlow-git-workflow-2.png)
+![](https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/03/git-flow-4.svg)
 
-> Image by zepel.io
+> Image by gitkraken.com
+> Custom image inspired by Vincent Driessen in “A Successful Git Branching Model”.
 -------------
 #### :bookmark: Server design layout
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTl0_x8AEl95GC7XEAX8oejkpo6zuJ-XcwmBEeabKvq8ZqRllFCm0pPNyop52iQSg1Iy1DaJlcFeyMd/pub?w=1440&h=1080)
@@ -58,7 +59,7 @@ $ git flow feature start feature_branch_name
 $ git add to_do_file
 $ git commit -m 'update to do file'
 ```
-##### :pushpin: Finishing feature branch (satisfied with the code) `your@[DEV]develop-branch`
+##### :pushpin: Finish feature branch (satisfied with the code) `your@[DEV]develop-branch`
 ```
 $ git flow feature finish feature_branch_name
 $ git push origin develop
@@ -130,8 +131,14 @@ index d17f10e..6c12524 100644
 @@ -1,4 +1,4 @@
 -edit line
 +Title Header
- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit fuga fugiat, asperiores dolor delectus atque iure, aliquid optio labore quod voluptate in necessitatibus harum quaerat corrupti inventore a recusandae ad.
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit fuga fugiat, asperiores dolor delectus atque iure.
 ```
+
+Search any string value inside of your project
+```
+$ git grep -i -n 'type-the-text-to-search-here'
+```
+
 > :tv: [Using git diff video explanation](https://www.youtube.com/watch?v=RophmTcbf8o)
 -------------
 ## :book: References
